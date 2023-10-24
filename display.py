@@ -6,10 +6,15 @@ window = tk.Tk()
 
 # Create a list of image paths and titles
 image_data = [
-    {"path": "data/image.jpg", "title": "step 1 : Load Original_image"},
-    {"path": "result/white_balanced_image.jpg", "title": "step 2: White_balanced_image"},
-    {"path": "result/filtered_image.jpg", "title": "step 3: Filtered_image by Gauss and change to Gray_scale"},
-    {"path": "result/equalized_image.jpg", "title": "step 4 : Contrast enhancement for image"}
+    {"path": "data/scaled_image.jpg", "title": "step 1 : Load Original_image"},
+    {"path": "result/scaled_white_balanced_image_RGB.jpg", "title": "step 2: White_balanced_image_with_RGB"},
+    {"path": "result/scaled_white_balanced_image_LAB.jpg", "title": "step 2: White_balanced_image_with_LAB"},
+    {"path": "result/scaled_Gauss_image_RGB.jpg", "title": "step 2: Gauss_image_with_RGB"},
+    {"path": "result/scaled_Gauss_image_LAB.jpg", "title": "step 2: Gauss_image_with_LAB"},
+    {"path": "result/scaled_Contrast_en_image_RGB.jpg", "title": "step 3: Contrast_en_image_RGB"},
+    {"path": "result/scaled_Contrast_en_image_LAB.jpg", "title": "step 4 : Contrast_en_image_LAB"},
+    {"path": "result/scaled_regconized_face_image_LAB.jpg", "title": "step 4 : Regconized_face_image_LAB"},
+    {"path": "result/scaled_regconized_face_image_RGB.jpg", "title": "step 4 : Regconized_face_image_RGB"}
 ]
 
 # Create variables to keep track of the current image index and the image label
