@@ -6,6 +6,6 @@ run pip install -r requirements.txt ( to install the package)<br>
 run python main.py
 
 Author :<br>
-Lương Thiên Tài Nghĩa<br>
-Lương Thiên Tài Lộc<br>
-Phạm Đắc Nhân<br>
+**Lương Thiên Tài Nghĩa**<br>
+**Lương Thiên Tài Lộc**<br>
+**Phạm Đắc Nhân**<br>
