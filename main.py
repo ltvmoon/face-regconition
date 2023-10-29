@@ -39,9 +39,9 @@ def main():
   cv2.imwrite("data/scaled_image.jpg", image)
 
   # Cân bằng trắng hình ảnh bằng trung bình RGB
-  white_balanced_image_RBG = Ip.white_balance_RBG(original_image)
-  white_balanced_image_RBG.save('result/white_balanced_image_RGB.jpg')
-  white_balanced_image_RBG.close()
+  white_balanced_image_RGB = Ip.white_balance_RGB(original_image)
+  white_balanced_image_RGB.save('result/white_balanced_image_RGB.jpg')
+  white_balanced_image_RGB.close()
   white_balanced_image_RBG = cv2.imread('result/white_balanced_image_RGB.jpg')
   image = Ip.Resize_image_800_600(white_balanced_image_RBG)
   cv2.imwrite("result/scaled_white_balanced_image_RGB.jpg", image)

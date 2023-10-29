@@ -3,7 +3,7 @@ import numpy as np
 from PIL import Image
 
 
-def white_balance_RBG(image):
+def white_balance_RGB(image):
     # Lấy các giá trị RGB trung bình của hình ảnh.
     red_channel = image[:, :, 2]
     green_channel = image[:, :, 1]
